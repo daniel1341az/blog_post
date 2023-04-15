@@ -8,6 +8,7 @@ import { LargeRectangleAdComponent } from './large-rectangle-ad/large-rectangle-
 import { LeaderboardAdComponent } from './leaderboard-ad/leaderboard-ad.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { VerticalAdComponent } from './vertical-ad/vertical-ad.component';
+import { GoogleAdComponent } from './google-ad/google-ad.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { VerticalAdComponent } from './vertical-ad/vertical-ad.component';
     LargeRectangleAdComponent,
     LeaderboardAdComponent,
     NavbarComponent,
-    VerticalAdComponent
+    VerticalAdComponent,
+    GoogleAdComponent
   ],
   imports: [
     BrowserModule,
