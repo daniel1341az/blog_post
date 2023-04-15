@@ -1,0 +1,17 @@
+.ad-leaderboard {
+  text-align: center;
+  margin: 20px 0;
+
+  img {
+    max-width: 728px;
+    height: auto;
+  }
+}
+
+// Mobile resolution
+@media screen and (max-width: 767px) {
+  .ad-leaderboard img {
+    max-width: 320px;
+    height: auto;
+  }
+}
